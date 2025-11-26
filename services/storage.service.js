@@ -14,7 +14,7 @@ const isExist = async (path) => {
 };
 
 const saveKeyValue = async (key, value) => {
-  let data = {}; // <-- const emas, let !!!
+  const data = {};
 
   if (await isExist(filePath)) {
     const file = await fs.promises.readFile(filePath);
