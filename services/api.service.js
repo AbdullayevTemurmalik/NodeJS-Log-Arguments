@@ -18,7 +18,7 @@ const getWeather = async (city) => {
       },
     }
   );
-  return data
+  return response.data;
 };
 
 export { getWeather };
