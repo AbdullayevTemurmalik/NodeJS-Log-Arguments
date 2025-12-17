@@ -38,7 +38,7 @@ const startCLI = () => {
   if (args.t) return saveToken(args.t);
   if (args.s) return saveCity(args.s);
 
-  getWeather();
+  getWeather("Uzbekistan");
 };
 
 startCLI();
